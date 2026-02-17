@@ -1,5 +1,5 @@
 {
-  "name": "envdiff",
+  "name": "@devkaliper/envdiff",
   "version": "1.0.0",
   "description": "CLI tool that compares .env files across branches, environments, or commits",
   "type": "module",
