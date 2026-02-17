@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx
+    environment:
+      - PORT=80
+      - HOST=localhost
+  
+  api:
+    image: node:20
+    environment:
+      NODE_ENV: production
+      API_KEY: api-key-123
+      DATABASE_URL: postgresql://localhost:5432/db
+  
+  worker:
+    image: node:20
+    environment:
+      - QUEUE_URL=redis://localhost:6379
+      - WORKERS=4
