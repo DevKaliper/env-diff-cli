@@ -1,0 +1,5 @@
+[variables]
+API_KEY = "railway-api-key"
+DATABASE_URL = "postgresql://railway-db:5432/db"
+PORT = "8080"
+NODE_ENV = "production"

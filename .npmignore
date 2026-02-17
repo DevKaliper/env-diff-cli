@@ -1,0 +1,11 @@
+node_modules
+src
+__tests__
+tsconfig.json
+.eslintrc.json
+.prettierrc.json
+vitest.config.ts
+*.test.ts
+*.spec.ts
+.gitignore
+.github

@@ -1,0 +1,12 @@
+{
+  "env": {
+    "API_KEY": "vercel-api-key",
+    "DATABASE_URL": "postgresql://vercel-db:5432/db"
+  },
+  "build": {
+    "env": {
+      "BUILD_FLAG": "production",
+      "OPTIMIZE": "true"
+    }
+  }
+}
