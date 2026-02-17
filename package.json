@@ -24,7 +24,7 @@
     "cli",
     "environment"
   ],
-  "author": "",
+  "author": "devkaliper",
   "license": "MIT",
   "dependencies": {
     "commander": "^11.1.0",
